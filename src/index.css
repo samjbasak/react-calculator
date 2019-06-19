@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  display: inline-grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
+  text-align: center;
+}
+
+.answer {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.clear {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.box {
+  border: 5px solid red;
+  padding:10px;
+  vertical-align: middle;
+  margin: 0px;
+}
