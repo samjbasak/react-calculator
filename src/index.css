@@ -17,11 +17,17 @@ code {
   grid-template-columns: 50px 50px 50px 50px;
   grid-template-rows: 50px 50px 50px 50px;
   text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .answer {
   grid-column-start: 1;
   grid-column-end: 5;
+  background-color: rgb(165, 164, 164);
+  border-radius: 3px;
 }
 
 .clear {
@@ -35,8 +41,13 @@ code {
 }
 
 .box {
-  border: 5px solid red;
   padding:10px;
   vertical-align: middle;
-  margin: 0px;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.operator {
+  background-color: rgb(216, 188, 221);
 }
